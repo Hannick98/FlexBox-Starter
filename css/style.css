@@ -1,0 +1,36 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Sigmar', cursive;
+    background-image: url(https://media.istockphoto.com/id/154917415/photo/funny-baby.jpg?s=612x612&w=0&k=20&c=GNIw7NXldPyaKBtRCYipN4kKc_1ej3-F72HpNgas8E4=);
+    background-size: cover;
+    font-size: 1em;
+    color: whitesmoke;
+}
+h1 {
+    font-size: 2em;
+
+
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+@media screen {min-width: 786px;
+    h1{
+        font-size:3em;
+    }
+    
+}
